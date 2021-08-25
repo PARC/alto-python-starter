@@ -17,7 +17,7 @@ def load_requirements():
 
 def load_version():
     context = {}
-    with open(os.path.join(PROJECT_ROOT, "alto-starter", "__version__.py")) as f:
+    with open(os.path.join(PROJECT_ROOT, "alto_starter", "__version__.py")) as f:
         exec(f.read(), context)
     return context["__version__"]
 
