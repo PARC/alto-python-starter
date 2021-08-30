@@ -1,7 +1,7 @@
 import os
 from setuptools import Command, find_packages, setup
 
-NAME = "alto-python-starter"
+NAME = "alto-starter"
 DESCRIPTION = "Utils for introducing a service into Alto-AI platform"
 EMAIL = "vmolokanov@star.global"
 AUTHOR = "Viktor Molokanov"
